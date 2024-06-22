@@ -4,7 +4,7 @@ export const isAuthTokenContext=createContext()
 
 export const ContextShare = ({children}) => {
 
-  const [isAuthToken, setIsAuthToken] = useState(false)
+  const [isAuthToken, setIsAuthToken] = useState(true)
   return (
     <>
     <isAuthTokenContext.Provider value={{isAuthToken,setIsAuthToken}}>
