@@ -1,0 +1,35 @@
+/* src/components/HotelServicesPage.css */
+.hotel-services-page {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 40px 0;
+  }
+  
+  .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .service-card {
+    border: none;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .service-icon {
+    font-size: 3rem;
+    color: #007bff; /* Primary color for icons */
+  }
+  
+  .service-card h3 {
+    margin-top: 1.5rem;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+  }
+  

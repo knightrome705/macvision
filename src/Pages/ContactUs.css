@@ -1,0 +1,13 @@
+/* src/components/ContactUsPage.css */
+.contact-us-page {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 40px 0;
+}
+
+.form-group {
+  margin-bottom: 20px; /* Space between form groups */
+}
+
+textarea.form-control {
+  resize: vertical; /* Allow resizing vertically for textarea */
+}

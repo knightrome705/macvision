@@ -1,0 +1,34 @@
+/* src/components/AddFoodItemPage.css */
+.add-food-item-page {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 40px 0;
+  }
+  
+  .sidebar {
+    background-color: #343a40; /* Dark sidebar background */
+    color: #ffffff; /* White text color */
+    padding-top: 20px;
+    height: 100vh; /* Full height sidebar */
+  }
+  
+  .sidebar-sticky {
+    position: sticky;
+    top: 20px;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  .main-content h1 {
+    margin-bottom: 30px;
+  }
+  
+  .nav-link {
+    color: #ffffff !important; /* White text color for sidebar links */
+  }
+  
+  .nav-link.active {
+    font-weight: bold; /* Bold font for active sidebar link */
+  }
+  

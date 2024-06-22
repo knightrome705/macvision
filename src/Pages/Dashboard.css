@@ -1,0 +1,18 @@
+/* src/HomePage.css */
+.homepage {
+    background-image: url('../Images/backgroundImg.jpg'); /* Replace with your actual background image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust height as needed */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .background-overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
+    height: 100%;
+    overflow: auto; /* Allow scrolling if content exceeds viewport */
+  }
+  
+  /* Additional custom styling for sections, buttons, etc. can be added here */
+  
